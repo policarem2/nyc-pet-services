@@ -1,0 +1,235 @@
+{
+  "311": {
+    "rows": 15200,
+    "columns": [
+      "unique_key",
+      "created_date",
+      "closed_date",
+      "agency",
+      "agency_name",
+      "problem_formerly_complaint_type",
+      "problem_detail_formerly_descriptor",
+      "additional_details",
+      "location_type",
+      "incident_zip",
+      "incident_address",
+      "street_name",
+      "cross_street_1",
+      "cross_street_2",
+      "intersection_street_1",
+      "intersection_street_2",
+      "address_type",
+      "city",
+      "landmark",
+      "facility_type",
+      "status",
+      "due_date",
+      "resolution_description",
+      "resolution_action_updated_date",
+      "community_board",
+      "council_district",
+      "police_precinct",
+      "bbl",
+      "borough",
+      "x_coordinate_state_plane",
+      "y_coordinate_state_plane",
+      "open_data_channel_type",
+      "park_facility_name",
+      "park_borough",
+      "vehicle_type",
+      "taxi_company_borough",
+      "taxi_pick_up_location",
+      "bridge_highway_name",
+      "bridge_highway_direction",
+      "road_ramp",
+      "bridge_highway_segment",
+      "latitude",
+      "longitude",
+      "location"
+    ],
+    "null_counts": {
+      "unique_key": 0,
+      "created_date": 0,
+      "closed_date": 0,
+      "agency": 0,
+      "agency_name": 0,
+      "problem_formerly_complaint_type": 0,
+      "problem_detail_formerly_descriptor": 0,
+      "additional_details": 4331,
+      "location_type": 1,
+      "incident_zip": 10,
+      "incident_address": 0,
+      "street_name": 0,
+      "cross_street_1": 85,
+      "cross_street_2": 28,
+      "intersection_street_1": 85,
+      "intersection_street_2": 28,
+      "address_type": 0,
+      "city": 481,
+      "landmark": 481,
+      "facility_type": 15200,
+      "status": 0,
+      "due_date": 15200,
+      "resolution_description": 0,
+      "resolution_action_updated_date": 0,
+      "community_board": 0,
+      "council_district": 31,
+      "police_precinct": 0,
+      "bbl": 1257,
+      "borough": 0,
+      "x_coordinate_state_plane": 22,
+      "y_coordinate_state_plane": 21,
+      "open_data_channel_type": 0,
+      "park_facility_name": 0,
+      "park_borough": 0,
+      "vehicle_type": 15200,
+      "taxi_company_borough": 15200,
+      "taxi_pick_up_location": 15200,
+      "bridge_highway_name": 15200,
+      "bridge_highway_direction": 15200,
+      "road_ramp": 15200,
+      "bridge_highway_segment": 15200,
+      "latitude": 22,
+      "longitude": 22,
+      "location": 22
+    },
+    "detected_columns": {
+      "zip": "incident_zip",
+      "complaint_type": "problem_formerly_complaint_type",
+      "created_date": "created_date",
+      "unique_key": "unique_key"
+    },
+    "zip_quality": {
+      "missing_zip": 10,
+      "missing_zip_pct": 0.07,
+      "outside_nyc_range": 19,
+      "distinct_valid_zips": 183
+    },
+    "duplicate_unique_keys": 0,
+    "animal_complaint_types": {
+      "Animal-Abuse": 9643,
+      "Animal in a Park": 5557
+    },
+    "animal_rows": 15200,
+    "animal_type_detail_top40": [
+      {
+        "type": "Animal-Abuse",
+        "detail": "Neglected",
+        "count": 4771
+      },
+      {
+        "type": "Animal in a Park",
+        "detail": "Dog Off Leash",
+        "count": 3099
+      },
+      {
+        "type": "Animal-Abuse",
+        "detail": "Other (complaint details)",
+        "count": 2146
+      },
+      {
+        "type": "Animal-Abuse",
+        "detail": "Tortured",
+        "count": 1472
+      },
+      {
+        "type": "Animal in a Park",
+        "detail": "Injured Wildlife",
+        "count": 1054
+      },
+      {
+        "type": "Animal-Abuse",
+        "detail": "No Shelter",
+        "count": 655
+      },
+      {
+        "type": "Animal-Abuse",
+        "detail": "Chained",
+        "count": 472
+      },
+      {
+        "type": "Animal in a Park",
+        "detail": "Dead Animal",
+        "count": 457
+      },
+      {
+        "type": "Animal in a Park",
+        "detail": "Domestic Strays",
+        "count": 332
+      },
+      {
+        "type": "Animal in a Park",
+        "detail": "Wildlife Sighting",
+        "count": 236
+      },
+      {
+        "type": "Animal in a Park",
+        "detail": "Removing Wildlife",
+        "count": 209
+      },
+      {
+        "type": "Animal in a Park",
+        "detail": "Animal Waste",
+        "count": 169
+      },
+      {
+        "type": "Animal-Abuse",
+        "detail": "In Car",
+        "count": 127
+      },
+      {
+        "type": "Animal in a Park",
+        "detail": "Unsafe Use of Playground",
+        "count": 1
+      }
+    ],
+    "animal_rows_by_year": {
+      "2024": 15200
+    },
+    "seconds": 23.9
+  },
+  "dog_licensing": {
+    "rows": 819323,
+    "columns": [
+      "animalname",
+      "animalgender",
+      "animalbirthyear",
+      "breedname",
+      "zipcode",
+      "licenseissueddate",
+      "licenseexpireddate",
+      "extract_year"
+    ],
+    "null_counts": {
+      "animalname": 0,
+      "animalgender": 21,
+      "animalbirthyear": 0,
+      "breedname": 0,
+      "zipcode": 9,
+      "licenseissueddate": 0,
+      "licenseexpireddate": 82,
+      "extract_year": 0
+    },
+    "detected_columns": {
+      "zip": "zipcode"
+    },
+    "zip_quality": {
+      "missing_zip": 430,
+      "missing_zip_pct": 0.05,
+      "outside_nyc_range": 1103,
+      "distinct_valid_zips": 467
+    },
+    "exact_duplicate_rows": 41300,
+    "dedupe_key": [
+      "animalname",
+      "animalgender",
+      "animalbirthyear",
+      "breedname",
+      "zip5"
+    ],
+    "rows_after_heuristic_dedupe": 357672,
+    "heuristic_duplicates": 461651,
+    "zips_with_dogs": 467,
+    "seconds": 42.4
+  }
+}
